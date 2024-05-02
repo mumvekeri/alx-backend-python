@@ -2,6 +2,8 @@
 '''task 2 answer'''
 
 
+import math
+
 def floor(n: float) -> int:
     """
     Return the floor of the given float.
@@ -12,5 +14,5 @@ def floor(n: float) -> int:
     Returns:
         int: The floor value of n.
     """
-    return floor(n)
+    return math.floor(n)
 
