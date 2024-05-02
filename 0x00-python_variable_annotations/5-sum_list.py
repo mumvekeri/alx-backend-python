@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-'''Task 5 Answer'''
+'''Task 5 Answer
+'''
 from typing import List
-
 
 
 def sum_list(input_list: List[float]) -> float:
