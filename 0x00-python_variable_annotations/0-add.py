@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""this is my code"""
+'''this is my code for task 0'''
 
 
 def add(a: float, b: float) -> float:
