@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-'''Task 7 answer'''
+'''Task 7 answer
+'''
 from typing import Tuple, Union
 
 
