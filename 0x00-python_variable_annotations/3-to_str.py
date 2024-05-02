@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
 '''task 3 answer'''
 
-
 def to_str(n: float) -> str:
-'''to_str that takes a float n as argument and returns
-the string representation of the float '''
-return str(n)
+    '''Converts a float to its string representation.
+
+    Args:
+        n (float): The input float number.
+
+    Returns:
+        str: The string representation of the input float.
+    '''
+    return str(n)
