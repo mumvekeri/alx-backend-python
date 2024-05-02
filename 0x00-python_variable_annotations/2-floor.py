@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 '''task 2 answer'''
 
-import math
 
 def floor(n: float) -> int:
     """
@@ -13,5 +12,5 @@ def floor(n: float) -> int:
     Returns:
         int: The floor value of n.
     """
-    return math.floor(n)
+    return floor(n)
 
