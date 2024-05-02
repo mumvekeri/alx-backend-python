@@ -1,19 +1,10 @@
 #!/usr/bin/env python3
-'''Task 9 answer
+'''Task 9's module.
 '''
-from typing import Iterable, List, Tuple, Union
+from typing import Iterable, List, Sequence, Tuple
 
 
-def element_length(lst: Iterable[Union[str, bytes]]) -> List[Tuple[Union[str, bytes], int]]:
-    '''
-    Generate a list of tuples where each tuple contains an element from the input iterable `lst`
-    along with its length.
-
-    Args:
-        lst (Iterable[Union[str, bytes]]): An iterable of strings or bytes.
-
-    Returns:
-        List[Tuple[Union[str, bytes], int]]: A list of tuples where each tuple contains an element
-                                              from `lst` and its corresponding length.
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
+    '''Computes the length of a list of sequences.
     '''
     return [(i, len(i)) for i in lst]
