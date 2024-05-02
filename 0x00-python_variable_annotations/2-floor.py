@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 '''task 2 answer'''
 
-
 import math
+
 
 def floor(n: float) -> int:
     """
