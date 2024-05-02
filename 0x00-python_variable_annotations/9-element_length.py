@@ -17,3 +17,4 @@ def element_length(lst: List[str]) -> List[Tuple[str, int]]:
                                from `lst` and its corresponding length.
     """
     return [(i, len(i)) for i in lst]
+
