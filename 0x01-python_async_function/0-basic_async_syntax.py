@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+'''task 0 answer
+'''
+
+
 import asyncio
 import random
 
